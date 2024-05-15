@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "featureds",
+  "info": {
+    "singularName": "featured",
+    "pluralName": "featureds",
+    "displayName": "featured"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    },
+    "discription": {
+      "type": "text"
+    },
+    "featured": {
+      "type": "boolean"
+    },
+    "category": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "shipping": {
+      "type": "boolean"
+    },
+    "colors": {
+      "type": "json"
+    }
+  }
+}
